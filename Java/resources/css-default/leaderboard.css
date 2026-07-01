@@ -1,0 +1,106 @@
+.root{
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.leaderboard-title {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 40px;
+    -fx-text-fill: color-third-light-level-3;
+    -fx-letter-spacing: 4px;
+}
+
+.leaderboard-table {
+    -fx-background-color: color-first-dark-level-4;
+    -fx-border-color: color-second-dark-level-1;
+    -fx-border-width: 0.5;
+}
+
+.leaderboard-table .table-cell {
+    -fx-alignment: CENTER;
+}
+
+
+
+.leaderboard-table .table-cell {
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-size: 13px;
+}
+.leaderboard-table .table-row-cell:even {
+    -fx-background-color: color-first-light-level-3;
+    -fx-text-fill: color-third-light-level-3;
+    -fx-border-color: color-second-light-level-2;
+}
+
+.leaderboard-table .table-row-cell:odd {
+    -fx-background-color: color-first-medium-level-2;
+    -fx-text-fill: color-third-light-level-3;
+    -fx-border-color: color-second-light-level-2;
+}
+
+.leaderboard-table .table-row-cell:hover {
+    -fx-background-color: color-second-dark-level-3;
+}
+
+.leaderboard-table .column-header {
+    -fx-background-color: color-second-medium-level-2;
+    -fx-text-fill: color-second-light-level-3;
+    -fx-font-size: 11px;
+    -fx-border-color: transparent;
+}
+
+.leaderboard-table .column-header .label {
+    -fx-border-color: transparent;
+    -fx-text-fill: color-second-light-level-3;
+    -fx-font-size: 11px;
+    -fx-font-family: 'Georgia';
+}
+
+.leaderboard-table .column-header-background {
+    -fx-border-color: transparent;
+    -fx-background-color: color-first-dark-level-2;
+}
+
+.leaderboard-table .filler {
+    -fx-background-color: color-first-dark-level-2;
+    -fx-border-color: transparent;
+}
+
+.leaderboard-table .table-row-cell:selected .table-cell {
+    -fx-text-fill: color-third-light-level-3;
+}
+
+.leaderboard-table .table-row-cell:selected {
+    -fx-background-color: color-second-dark-level-3;
+}
+
+.leaderboard-table .scroll-bar:vertical {
+    -fx-background-color: color-first-dark-level-3;
+}
+
+.leaderboard-table .scroll-bar:vertical .thumb {
+    -fx-background-color: color-second-medium-level-2;
+    -fx-background-radius: 4px;
+}
+
+.leaderboard-table .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: color-second-medium-level-2;
+}
+
+.leaderboard-table .scroll-bar:vertical .increment-button,
+.leaderboard-table .scroll-bar:vertical .decrement-button {
+    -fx-background-color: color-first-dark-level-3 /*it is main bg color*/;
+}
+
+.leaderboard-table .scroll-bar:vertical .increment-arrow,
+.leaderboard-table .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: color-second-dark-level-1;
+}
+
+.leaderboard-table .table-view {
+    -fx-table-cell-border-color: transparent;
+}
+
+.leaderboard-table .table-cell {
+    -fx-border-color: transparent;
+}
+

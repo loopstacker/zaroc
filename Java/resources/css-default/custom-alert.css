@@ -1,0 +1,27 @@
+.custom-alert-error{
+    -fx-background-color: brown;
+    -fx-background-radius: 10px;
+    -fx-text-fill: color-third-light-level-1;
+    -fx-font-size: 18;
+}
+
+.custom-alert-confirmation{
+    -fx-background-color: darkgreen;
+    -fx-background-radius: 10px;
+    -fx-text-fill: color-third-light-level-1;
+    -fx-font-size: 18;
+}
+
+.custom-alert-information{
+    -fx-background-color: blue;
+    -fx-background-radius: 10px;
+    -fx-text-fill: color-third-light-level-1;
+    -fx-font-size: 18;
+}
+
+.custom-alert-others{
+    -fx-background-color: purple;
+    -fx-background-radius: 10px;
+    -fx-text-fill: color-third-light-level-1;
+    -fx-font-size: 18;
+}

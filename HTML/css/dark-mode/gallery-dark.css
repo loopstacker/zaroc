@@ -1,0 +1,28 @@
+#gallery-section h2 {
+    color: var(--color-gold);
+}
+
+#gallery figure {
+    border-color: var(--color-espresso);
+}
+
+#gallery figure:hover {
+    border-color: darkgoldenrod;
+}
+
+#gallery figure figcaption {
+    color: var(--color-tan);
+    background-color: var(--color-header-dark);
+}
+
+#image-viewer-overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#overlay-close-button {
+    color: var(--color-desert);
+}
+
+#overlay-close-button:hover {
+    color: var(--color-gold-tinted);
+}

@@ -1,0 +1,38 @@
+#statistics-and-correlations-summary, #analysis-header, #analysis-footer{
+    background-color: #ede3d0;
+    border: #c9a96e solid;
+}
+
+#analysis-header p a,
+#analysis-footer p a{
+    color: red;
+}
+
+#analysis-header p a:hover,
+#analysis-footer p a:hover{
+    color: saddlebrown;
+}
+
+#moves {
+    border-color: var(--color-beige);
+}
+
+#refresh-button {
+    background-color: var(--color-leather-brown);
+}
+
+#moves > thead {
+    background-color: var(--color-header-light);
+}
+
+#moves > tbody > tr:nth-child(odd) {
+    background-color: var(--color-bg-light);
+}
+
+#moves > tbody > tr:nth-child(even) {
+    background-color: var(--color-bone-white);
+}
+
+#find-button {
+    background-color: var(--color-leather-brown);
+}

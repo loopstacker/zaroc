@@ -1,0 +1,277 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Cinzel', serif;
+    padding: 0;
+    max-width: 2100px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+
+header h1 {
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding: 0.75em 1em;
+}
+
+header h1 a {
+    color: var(--color-gold);
+    text-decoration: none;
+    font-size: clamp(0.7em, 0.10em, 0.10em);
+}
+
+#menu {
+    margin-left: auto;
+
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu ul li {
+    padding: 0.75em 1em;
+}
+
+#menu li a {
+    color: var(--color-tan);
+    text-decoration: none;
+    font-size: 1.35em;
+}
+
+#menu li a:hover {
+    color: #d4a853;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #2d1f10;
+    padding: 1em 2em;
+    flex-shrink: 1; /* controls whether a flex item is allowed to get smaller when there isn’t enough space. */
+}
+
+footer p {
+    color: var(--color-tan);
+    font-size: 0.9em;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+footer nav a {
+    color: var(--color-tan);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer nav a:hover {
+    color: #d4a853;
+}
+
+.hidden-element {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+#lang-sel-box, #themeBtn {
+    background: transparent;
+    border: 1px solid #d4a853;
+    color: #d4a853;
+    padding: 0.4em 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.9em;
+    margin-left: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#lang-sel-box:hover, #themeBtn:hover {
+    background-color: #4a2e10;
+}
+
+#lang-sel-box option {
+    background-color: #120d09; /* so dropdown doesn't go white */
+    color: #d4a853;
+}
+
+/*#themeBtn {*/
+/*    background: transparent;*/
+/*    border: 1px solid #d4a853;*/
+/*    color: #d4a853;*/
+/*    padding: 0.4em 0.9em;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    font-family: inherit;*/
+/*    font-size: 0.9em;*/
+/*    margin-left: 1em;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+#themeBtn:hover {
+    background-color: #4a2e10;
+}
+
+#accessibility-widget {
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+#accessibility-toggle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #d4a853;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+#accessibility-toggle:hover {
+    background-color: #b8883a;
+}
+
+#accessibility-menu {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    background-color: #1e1410;
+    border: 1px solid #3a2510;
+    border-radius: 10px;
+    padding: 1em;
+    width: 220px;
+    max-width: 220px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+#accessibility-menu h3 {
+    color: #d4a853;
+    margin: 0 0 0.75em 0;
+    font-size: 1em;
+    text-align: center;
+    border-bottom: 1px solid #3a2510;
+    padding-bottom: 0.5em;
+}
+
+.acc-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75em;
+    gap: 0.5em;
+}
+
+.acc-option p {
+    color: #c0a070;
+    font-size: 0.85em;
+}
+
+.acc-controls {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.acc-controls button,
+#dyslexia-btn {
+    background: transparent;
+    border: 1px solid #d4a853;
+    color: #d4a853;
+    border-radius: 4px;
+    padding: 2px 7px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.8em;
+    transition: background-color 0.2s;
+}
+
+.acc-controls button:hover,
+#dyslexia-btn:hover {
+    background-color: #4a2e10;
+}
+
+#colorblind-select {
+    background: #120d09;
+    border: 1px solid #d4a853;
+    color: #d4a853;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: inherit;
+    font-size: 0.8em;
+    cursor: pointer;
+    max-width: 50%;
+}
+
+.display-none {
+    display: none !important; /*!important overrides*/
+}
+
+/* colorblind later */
+
+/* colorblind = applied to html element so fixed elements are included, so basically the whole page */
+html.cb-deuteranopia {
+    filter: hue-rotate(90deg) saturate(0.8); }
+html.cb-protanopia {
+    filter: hue-rotate(180deg) saturate(0.8); }
+html.cb-tritanopia {
+    filter: hue-rotate(270deg) saturate(0.8);
+}
+html.cb-grayscale {
+    filter: grayscale(100%);
+}
+
+.dyslexia-mode {
+    font-family: 'Lexend', Arial, sans-serif;
+}
+
+.gheader {
+    grid-area: header;
+}
+.gmain {
+    grid-area: main;
+}
+
+.gfooter {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZAROC</title>
+    <link rel="stylesheet" href="../css/general-style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link id="theme-general" rel="stylesheet" href="../css/dark-mode/general-style-dark.css">
+    <link rel="stylesheet" href="../css/ai-logic.css">
+    <link id="theme-ai-logic" rel="stylesheet" href="../css/dark-mode/ai-logic-dark.css">
+    <link id="theme-ai-logic-light" rel="preload" as="style" href="../css/light-mode/ai-logic-light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <script defer src="../javascript/vocabulary-data.js"></script>
+    <script defer src="../javascript/vocabulary-handler.js"></script>
+    <script src="../javascript/styling-script.js" defer></script>
+    <script src="../javascript/accessibility.js" defer></script>
+    <link id="dyslexia-font" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">ZAROC</a></h1>
+
+    <nav id="menu">
+        <h2 class="hidden-element">Menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <label class="hidden-element" for="lang-sel-box">Language</label>
+    <select name="language" id="lang-sel-box">
+        <option value="EN">EN</option>
+        <option value="NL">NL</option>
+        <option value="FR">FR</option>
+    </select>
+    <button id="themeBtn">Toggle theme</button>
+</header>
+
+<main>
+
+    <section id="approaches">
+        <h2 data-ai="ai-logic-page-header">How did we make it possible?</h2>
+        <p id="approaches-sub" data-ai="ai-logic-page-approaches-header"><strong>Approaches</strong></p>
+        <table id="strategies-compare">
+            <tr>
+                <th data-ai="ai-logic-page-smart-header">SMART</th>
+                <th data-ai="ai-logic-page-random-header">RANDOM</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li data-ai="ai-logic-page-smart-list-item-1">Complicated algorithm behind it</li>
+                        <li data-ai="ai-logic-page-smart-list-item-2">Hard probability calculations based on danger evaluation</li>
+                        <li data-ai="ai-logic-page-smart-list-item-3">Future prediction</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li data-ai="ai-logic-page-random-list-item-1">Validation move algorithm</li>
+                        <li data-ai="ai-logic-page-random-list-item-2">Pure entropy</li>
+                        <li data-ai="ai-logic-page-random-list-item-3">The most unexpected decisions</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code class="java">
+private boolean isThatMoveSmart(Move move){
+boolean isMoveSafe = checkSafetyScore(move);
+return isMoveSafe;
+}
+                    </code>
+                </td>
+                <td>
+                    <code class="java">
+private move findAnyMove(){
+Move move = bringMeValidMove();
+return move;
+}
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li data-ai="ai-logic-page-smart-list-item-4">Used in competitive and custom matches</li>
+                        <li data-ai="ai-logic-page-smart-list-item-5">Losing or winning it in competitive affects the leaderboard</li>
+                        <li data-ai="ai-logic-page-smart-list-item-6">Prepare yourself in custom non-ranked game simulation</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li data-ai="ai-logic-page-random-list-item-4">Created mostly for fun</li>
+                        <li data-ai="ai-logic-page-random-list-item-5">Has no impact on your score</li>
+                        <li data-ai="ai-logic-page-random-list-item-6">Available only in custom match</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<footer class="gfooter">
+    <p>&copy; 2026 Zaroc Team. All rights reserved.</p>
+    <nav>
+        <h2 class="hidden-element">Footer menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<aside id="accessibility-widget">
+    <h2 class="hidden-element">Accessibility options</h2>
+    <button id="accessibility-toggle">
+        !!
+    </button>
+
+    <section id="accessibility-menu" class="display-none">
+        <h3>Accessibility</h3>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Font Size</h4>
+            <p>Font Size</p>
+            <ul class="acc-controls">
+                <li><button id="font-decrease">A-</button></li>
+                <li><button id="font-reset">A</button></li>
+                <li><button id="font-increase">A+</button></li>
+            </ul>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Colorblind Mode</h4>
+            <p>Colorblind Mode</p>
+            <label class="hidden-element" for="colorblind-select">Colorblind mode</label>
+            <select id="colorblind-select">
+                <option value="none">None</option>
+                <option value="deuteranopia">Deuteranopia</option>
+                <option value="protanopia">Protanopia</option>
+                <option value="tritanopia">Tritanopia</option>
+                <option value="grayscale">Grayscale</option>
+            </select>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Dyslexia Font</h4>
+            <p>Dyslexia Font</p>
+            <button id="dyslexia-btn">Off</button>
+        </section>
+    </section>
+</aside>
+</body>
+</html>

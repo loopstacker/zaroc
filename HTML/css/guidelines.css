@@ -1,0 +1,137 @@
+#guidelines {
+    padding: 2em 6em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#game-rules {
+    margin-bottom: 4em;
+}
+
+#game-rules h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5em;
+}
+
+#game-rules h3,
+#game-rules h4 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#setup,
+#objective,
+#restrictions,
+#winning {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#setup p,
+#objective p,
+#restrictions p,
+#winning p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+#restrictions ul {
+    list-style: disc;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+#how-to-play {
+    margin-bottom: 2em;
+}
+
+#how-to-play dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 0.5em;
+}
+
+#how-to-play dl dt {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+#how-to-play dl dd {
+    text-align: center;
+    line-height: 1.7;
+    margin: 0 0 1.2em 0;
+    padding: 0 1em;
+}
+
+#installation {
+    margin-bottom: 4em;
+    border-top: 1px solid;
+    padding-top: 2em;
+}
+
+#installation h2 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#installation ol {
+    list-style: decimal;
+    max-width: 650px;
+    padding-left: 1.5em;
+}
+
+#installation ol li {
+    padding: 0.7em 1em;
+    margin-bottom: 0.5em;
+    border-left: 2px solid;
+    transform: translateX(-20px);
+    transition: transform 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+#installation ol li:hover {
+    transform: translateX(0);
+}
+
+#technical {
+    border-top: 1px solid;
+    padding-top: 2em;
+    margin-bottom: 4em;
+}
+
+#technical h2 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#technical dl {
+    max-width: 650px;
+}
+
+#technical dl dt {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+    border-left: 3px solid;
+    padding-left: 12px;
+}
+
+#technical dl dd {
+    margin: 0 0 1.5em 1em;
+    padding-left: 12px;
+    line-height: 1.7;
+}

@@ -1,0 +1,8 @@
+#strategies-compare {
+    border-left-color: var(--color-beige);
+    border-right-color: var(--color-beige);
+}
+
+.java {
+    color: var(--color-light-brown);
+}

@@ -1,0 +1,41 @@
+#feedback-form fieldset {
+    border-color: var(--color-beige);
+}
+
+#feedback-form legend {
+    color: var(--color-leather-brown);
+}
+
+#feedback-form label {
+    color: var(--color-light-brown);
+}
+
+#feedback-form input,
+#feedback-form select,
+#feedback-form textarea {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
+    border-color: var(--color-beige);
+}
+
+#feedback-form input::placeholder,
+#feedback-form textarea::placeholder {
+    color: var(--color-tan);
+}
+
+#submit-button {
+    color: var(--color-leather-brown);
+    border-color: var(--color-leather-brown);
+}
+
+#submit-button:hover {
+    background-color: var(--color-beige);
+}
+
+#feedback-intro h2 {
+    color: var(--color-leather-brown);
+}
+
+#feedback-section h3 {
+    color: var(--color-leather-brown);
+}

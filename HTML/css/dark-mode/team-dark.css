@@ -1,0 +1,8 @@
+#team-map .team-member-card figcaption {
+    background-color: var(--color-mocha);
+    color: var(--color-pale-yellow);
+}
+
+#team-map > .team-member-card:hover {
+    background-color: var(--color-mocha);
+}

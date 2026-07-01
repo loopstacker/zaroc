@@ -1,0 +1,94 @@
+.leaderboard-title {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 40px;
+    -fx-text-fill: #e8d5b0;
+    -fx-letter-spacing: 4px;
+}
+
+.leaderboard-table {
+    -fx-background-color: rgba(28, 18, 10, 0.7);
+    -fx-border-color: rgba(212, 168, 83, 0.35);
+    -fx-border-width: 0.5;
+}
+
+.leaderboard-table .column-header {
+    -fx-background-color: rgba(58, 37, 16, 0.6);
+    -fx-text-fill: #d4a853;
+    -fx-font-size: 11px;
+}
+
+.leaderboard-table .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e8d5b0;
+    -fx-border-color: rgba(212, 168, 83, 0.1);
+}
+
+.leaderboard-table .table-row-cell:odd {
+    -fx-background-color: rgba(58, 37, 16, 0.15);
+}
+
+.leaderboard-table .table-row-cell:hover {
+    -fx-background-color: rgba(212, 168, 83, 0.08);
+}
+
+.leaderboard-table .table-cell {
+    -fx-text-fill: #e8d5b0;
+    -fx-font-size: 13px;
+}
+
+.leaderboard-table .column-header .label {
+    -fx-text-fill: #d4a853;
+    -fx-font-size: 11px;
+    -fx-font-family: 'Georgia';
+}
+
+.leaderboard-table .table-row-cell:selected .table-cell {
+    -fx-text-fill: #e8d5b0;
+}
+
+.leaderboard-table .table-row-cell:selected {
+    -fx-background-color: rgba(212, 168, 83, 0.15);
+}
+
+.leaderboard-table .scroll-bar:vertical {
+    -fx-background-color: rgba(18, 13, 9, 0.8);
+}
+
+.leaderboard-table .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(212, 168, 83, 0.25);
+    -fx-background-radius: 4px;
+}
+
+.leaderboard-table .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(212, 168, 83, 0.45);
+}
+
+.leaderboard-table .scroll-bar:vertical .increment-button,
+.leaderboard-table .scroll-bar:vertical .decrement-button {
+    -fx-background-color: rgba(18, 13, 9, 0.8);
+}
+
+.leaderboard-table .scroll-bar:vertical .increment-arrow,
+.leaderboard-table .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: rgba(212, 168, 83, 0.35);
+}
+
+.leaderboard-table .table-view {
+    -fx-table-cell-border-color: transparent;
+}
+
+.leaderboard-table .table-cell {
+    -fx-border-color: transparent;
+}
+
+.leaderboard-table .column-header {
+    -fx-border-color: transparent;
+}
+
+.leaderboard-table .column-header-background {
+    -fx-border-color: transparent;
+}
+.leaderboard-table .filler {
+    -fx-background-color: rgba(58, 37, 16, 0.6);
+    -fx-border-color: transparent;
+}

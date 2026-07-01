@@ -1,0 +1,145 @@
+.root{
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.settings-bg-color{
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.current-config-label{
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 15px;
+}
+
+.settings-labels {
+    -fx-text-fill: color-third-light-level-1;
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 15px;
+}
+
+.current-config-name{
+    -fx-text-fill: color-third-dark-level-2;
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 15px;
+}
+/*
+.first-color-pane-gr-1 {
+    -fx-background-color: color-first-light-level-1;
+}
+
+.first-color-pane-gr-2 {
+    -fx-background-color: color-first-light-level-2;
+}
+
+.first-color-pane-gr-3 {
+    -fx-background-color: color-first-light-level-3;
+}
+
+.first-color-pane-gr-4 {
+    -fx-background-color: color-first-light-level-4;
+}
+
+.first-color-pane-gr-5 {
+    -fx-background-color: color-first-medium-level-1;
+}
+
+.first-color-pane-gr-6 {
+    -fx-background-color: color-first-medium-level-2;
+}
+
+.first-color-pane-gr-7 {
+    -fx-background-color: color-first-medium-level-3;
+}
+
+.first-color-pane-gr-8 {
+    -fx-background-color: color-first-dark-level-1;
+}
+
+.first-color-pane-gr-9 {
+    -fx-background-color: color-first-dark-level-2;
+}
+
+.first-color-pane-gr-10 {
+    -fx-background-color: color-first-dark-level-3;
+}
+
+.first-color-pane-gr-11 {
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.second-color-pane-gr-1 {
+    -fx-background-color: color-second-light-level-1;
+}
+
+.second-color-pane-gr-2 {
+    -fx-background-color: color-second-light-level-2;
+}
+
+.second-color-pane-gr-3 {
+    -fx-background-color: color-second-light-level-3;
+}
+
+.second-color-pane-gr-4 {
+    -fx-background-color: color-second-medium-level-1;
+}
+
+.second-color-pane-gr-5 {
+    -fx-background-color: color-second-medium-level-2;
+}
+
+.second-color-pane-gr-6 {
+    -fx-background-color: color-second-medium-level-3;
+}
+
+.second-color-pane-gr-7 {
+    -fx-background-color: color-second-dark-level-1;
+}
+
+.second-color-pane-gr-8 {
+    -fx-background-color: color-second-dark-level-2;
+}
+
+.second-color-pane-gr-9 {
+    -fx-background-color: color-second-dark-level-3;
+}
+
+.second-color-pane-gr-10 {
+    -fx-background-color: color-second-dark-level-4;
+}
+
+.third-color-pane-gr-1 {
+    -fx-background-color: color-third-light-level-1;
+}
+
+.third-color-pane-gr-2 {
+    -fx-background-color: color-third-light-level-2;
+}
+
+.third-color-pane-gr-3 {
+    -fx-background-color: color-third-light-level-3;
+}
+
+.third-color-pane-gr-4 {
+    -fx-background-color: color-third-medium-level-1;
+}
+
+.third-color-pane-gr-5 {
+    -fx-background-color: color-third-medium-level-2;
+}
+
+.third-color-pane-gr-6 {
+    -fx-background-color: color-third-medium-level-3;
+}
+
+.third-color-pane-gr-7 {
+    -fx-background-color: color-third-dark-level-1;
+}
+
+.third-color-pane-gr-8 {
+    -fx-background-color: color-third-dark-level-2;
+}
+
+.third-color-pane-gr-9 {
+    -fx-background-color: color-third-dark-level-3;
+}*/

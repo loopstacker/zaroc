@@ -1,0 +1,5 @@
+#features .f1,
+#features .f2,
+#features .f3 {
+    background-color: var(--color-header-dark);
+}

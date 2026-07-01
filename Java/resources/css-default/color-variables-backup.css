@@ -1,0 +1,55 @@
+/*DO NOT RENAME IT< JUST KEEP IT IN CASE TESTING SETTINGS WILL BROKE EVERYTHING*/
+
+.root {
+    /* --- first (brown/dark) --- */
+    color-first-light-level-1: #4A3E2A; /* color-first-light-level-1 */ /* final-screen (.btn-secondary border) */
+    color-first-light-level-2: #3A3226; /* color-first-light-level-2 */  /* final-screen (.divider) */
+    color-first-light-level-3: #2E291F; /* color-first-light-level-3 */ /* final-screen (.stat-box border) */
+    color-first-light-level-4: #3A2510;  /* final-screen (.btn-primary bg), login-page (.btn-primary bg) */ /* login-page (.btn-primary bg) */ /* login-page (.btn-primary:hover bg), mode-selection (.button:hover, .btn-ghost:hover), tutorial-page (.button:hover) */
+    /* mode-selection (.separator, .games-*-card, .competitive-info, .toggle-button, .spinner), tutorial-page (.text-area border, .scroll-bar thumb) */
+
+    color-first-medium-level-1: #2A2418; /* color-btn-secondary-bg-hover */ /* final-screen */
+    color-first-medium-level-2: #231F1A; /* color-stat-box-bg */ /* final-screen (.stat-box background) */
+    color-first-medium-level-3: #1E140B; /* color-bg-overlay-medium */
+
+
+    color-first-dark-level-1: #1E1408; /* color-first-dark-level-1 */ /* mode-selection (.games-*-card), tutorial-page (.text-area .content) */
+    color-first-dark-level-2: #1A1208; /* color-first-dark-level-2 */ /* mode-selection (.spinner text-field, arrow buttons) */
+    color-first-dark-level-3: #19100A;  /* leader-board (.leaderboard-table) */
+    /*THIS ONE IS BASE BG COLOR*/ color-first-dark-level-4: #120D09; /*it is main bg color, color-bg-popup, color-bg-scrollbar */
+
+    /* --- second (gold/amber) --- */
+    color-second-light-level-1: #E8C860; /* color-gold-bright */
+    color-second-light-level-2: #D4B96A; /* color-gold-medium */ /* final-screen (.btn-primary text) */
+    color-second-light-level-3: #D4A853; /* color-gold-main */ /* login-page (.btn-primary border, .btn-ghost:hover border), mode-selection (.button, .difficulty-hard, .toggle-button:selected border, spinner arrows), tutorial-page (.button, .scroll-bar thumb:hover), leader-board (column headers, scroll arrows), start-view (.menu-button:hover) */
+
+    color-second-medium-level-1: #C5A55A; /* color-gold-dim */ /* final-screen (.stat-val-default, .stat-val-time) */
+    color-second-medium-level-2: #69522A; /* color-second-medium-level-2 */ /* leader-board (scrollbar thumb:hover) */
+    color-second-medium-level-3: #5F4B26; /* color-second-medium-level-3 */ /* login-page (.login-box border, .popup-box border, .btn-ghost border) */ /* final-screen (.btn-primary border) */
+
+    color-second-dark-level-1: #554322; /* color-gold-scroll */ /* leader-board (.leaderboard-table border, scroll arrows) */
+    color-second-dark-level-2: #42331B; /* color-second-dark-level-2 */ /* leader-board (scrollbar thumb) */
+    color-second-dark-level-3: #2F2414; /* color-second-dark-level-3 */ /* leader-board (selected row background) */
+    color-second-dark-level-4: #4A2E10; /* final-screen (.btn-primary:hover bg), login-page (.btn-primary:hover bg) */
+
+    /* --- third (text/neutral) --- */
+    color-third-light-level-1: #FFFFFF; /* color-table-bg-white */
+    color-third-light-level-2: #4AA888; /* color-scrollbar-thumb */ /* start-view, style (.table-row-cell:selected text) */
+    color-third-light-level-3: #E8D5B0; /* color-text-primary */
+
+    color-third-medium-level-1: #A3A188; /* color-scrollbar-track */
+    color-third-medium-level-2: #B8A880; /* color-third-medium-level-2 */ /* final-screen (.btn-secondary text) */
+    color-third-medium-level-3: #C0A070; /* color-third-medium-level-3 */ /* login-page (.sub-label, .forget-password, .btn-ghost), mode-selection (.btn-ghost, .rules-label-column), start-view (.sub-label) */
+
+    color-third-dark-level-1: #8A7A60; /* color-text-muted */ /* final-screen (.game-over-label) */
+    color-third-dark-level-2: #7A6E5C; /*  color-third-dark-level-2 */ /* final-screen (.congrats-label) */
+    color-third-dark-level-3: #5A5040; /* color-third-dark-level-3 */ /* final-screen (.stat-label, .thanks-label) */
+
+    /* ---- special colors ----- */
+
+    color-bg-overlay-light: #18100A; /* leader-board (odd table rows) */
+    color-gold-row-hover: #21190E; /* leader-board (row:hover background) */
+    color-bg-overlay-header: #2A1B0D; /* leader-board (column headers, filler) */
+    color-gold-border-faint: #251C10; /* leader-board (row borders) */
+    color-bg-overlay-strong: #26190C; /* login-page (.btn-ghost:hover) */
+}

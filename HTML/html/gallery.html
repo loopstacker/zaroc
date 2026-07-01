@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZAROC</title>
+    <link rel="stylesheet" href="../css/general-style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link id="theme-general" rel="stylesheet" href="../css/dark-mode/general-style-dark.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link id="theme-gallery" rel="stylesheet" href="../css/dark-mode/gallery-dark.css">
+    <link id="theme-gallery-light" rel="preload" as="style" href="../css/light-mode/gallery-light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <script defer src="../javascript/vocabulary-data.js"></script>
+    <script defer src="../javascript/vocabulary-handler.js"></script>
+    <script src="../javascript/gallery.js" defer></script>
+    <script src="../javascript/styling-script.js" defer></script>
+    <script src="../javascript/accessibility.js" defer></script>
+    <link id="dyslexia-font" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+</head>
+<body class="grid-container">
+<header>
+    <h1><a href="../index.html">ZAROC</a></h1>
+    <nav id="menu">
+        <h2 class="hidden-element">Menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <label class="hidden-element" for="lang-sel-box">Language</label>
+    <select name="language" id="lang-sel-box">
+        <option value="EN">EN</option>
+        <option value="NL">NL</option>
+        <option value="FR">FR</option>
+    </select>
+    <button id="themeBtn">Toggle theme</button>
+</header>
+<main class="gmain">
+    <section id="gallery-section">
+        <h2 data-gallery="gallery-page-header">Screenshots & Media</h2>
+        <section id="gallery">
+            <h3 class="hidden-element">Photos</h3>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-main-screen.png" alt="login screen" data-gallery-alt="gallery-page-alt-1">
+                <figcaption data-gallery="gallery-page-caption-1">The calm before the storm.</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-game-selection-screen.png" alt="game selection" data-gallery-alt="gallery-page-alt-2">
+                <figcaption data-gallery="gallery-page-caption-2">Pick your poison</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-login-screen.png" alt="login screen" data-gallery-alt="gallery-page-alt-3">
+                <figcaption data-gallery="gallery-page-caption-3">Captcha included</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-leaderboard-screen.png" alt="picture" data-gallery-alt="gallery-page-alt-4">
+                <figcaption data-gallery="gallery-page-caption-4">Can you reach the top?</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-game-screen.png" alt="picture" data-gallery-alt="gallery-page-alt-5">
+                <figcaption data-gallery="gallery-page-caption-5">It's not luck. (It's luck.)</figcaption>
+            </figure>
+            <figure>
+                <img class="gallery-image" src="../images/screenshots/zaroc-games-screen.png" alt="picture" data-gallery-alt="gallery-page-alt-6">
+                <figcaption data-gallery="gallery-page-caption-6">To remind of your failures</figcaption>
+            </figure>
+        </section>
+    </section>
+</main>
+<div id="image-viewer-overlay" class="display-none">
+    <svg id="overlay-close-button"
+         viewBox="0 0 24 24"
+         xmlns="http://www.w3.org/2000/svg">
+
+        <path fill="currentColor"
+              d="M18.3 5.7a1 1 0 0 0-1.4 0L12 10.6 7.1 5.7A1 1 0 0 0 5.7 7.1L10.6 12 5.7 16.9a1 1 0 1 0 1.4 1.4L12 13.4l4.9 4.9a1 1 0 0 0 1.4-1.4L13.4 12l4.9-4.9a1 1 0 0 0 0-1.4z"/>
+    </svg>
+    <img alt="Login screen" id="image-viewer" src="../images/screenshots/zaroc-login-screen.png">
+</div>
+<footer class="gfooter">
+    <p>&copy; 2026 Zaroc Team. All rights reserved.</p>
+    <nav>
+        <h2 class="hidden-element">Footer menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+</footer>
+<aside id="accessibility-widget">
+    <h2 class="hidden-element">Accessibility options</h2>
+    <button id="accessibility-toggle">
+        !!
+    </button>
+
+    <section id="accessibility-menu" class="display-none">
+        <h3>Accessibility</h3>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Font Size</h4>
+            <p>Font Size</p>
+            <ul class="acc-controls">
+                <li><button id="font-decrease">A-</button></li>
+                <li><button id="font-reset">A</button></li>
+                <li><button id="font-increase">A+</button></li>
+            </ul>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Colorblind Mode</h4>
+            <p>Colorblind Mode</p>
+            <label class="hidden-element" for="colorblind-select">Colorblind mode</label>
+            <select id="colorblind-select">
+                <option value="none">None</option>
+                <option value="deuteranopia">Deuteranopia</option>
+                <option value="protanopia">Protanopia</option>
+                <option value="tritanopia">Tritanopia</option>
+                <option value="grayscale">Grayscale</option>
+            </select>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Dyslexia Font</h4>
+            <p>Dyslexia Font</p>
+            <button id="dyslexia-btn">Off</button>
+        </section>
+    </section>
+</aside>
+</body>
+</html>

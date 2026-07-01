@@ -1,0 +1,55 @@
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#feedback-intro {
+    padding: 3em;
+}
+
+#feedback-form {
+    padding: 1em;
+}
+
+#feedback-section {
+    padding: 3em;
+    margin-bottom: 10em;
+}
+
+#feedback-section #submit-button {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#feedback-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+#feedback-form fieldset {
+    margin-bottom: 1.5em;
+}
+
+#feedback-form input,
+#feedback-form select,
+#feedback-form textarea {
+    border: 1px solid;
+}
+
+#submit-button {
+    background-color: transparent;
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+    transition: background-color 0.4s ease-out;
+}
+
+#feedback-intro h2 {
+    font-size: 2em;
+}
+
+#feedback-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}

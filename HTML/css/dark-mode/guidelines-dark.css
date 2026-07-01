@@ -1,0 +1,63 @@
+#game-rules h2 {
+    color: var(--color-gold);
+    border-bottom-color: var(--color-espresso);
+}
+
+#game-rules h3,
+#game-rules h4 {
+    color: navajowhite;
+}
+
+#setup p,
+#objective p,
+#restrictions p,
+#winning p {
+    color: var(--color-caramel);
+}
+
+#restrictions ul {
+    color: var(--color-caramel);
+}
+
+#how-to-play dl dt {
+    background-color: var(--color-dark-khaki);
+    color: var(--color-soft-tan);
+}
+
+#how-to-play dl dd {
+    color: var(--color-caramel);
+}
+
+#installation {
+    border-top-color: var(--color-espresso);
+}
+
+#installation h2 {
+    color: var(--color-gold);
+}
+
+#installation ol li {
+    color: var(--color-caramel);
+    border-left-color: var(--color-dark-khaki);
+}
+
+#installation ol li:hover {
+    border-left-color: var(--color-gold);
+}
+
+#technical {
+    border-top-color: var(--color-espresso);
+}
+
+#technical h2 {
+    color: var(--color-gold);
+}
+
+#technical dl dt {
+    color: var(--color-gold);
+    border-left-color: var(--color-dark-khaki);
+}
+
+#technical dl dd {
+    color: var(--color-caramel);
+}

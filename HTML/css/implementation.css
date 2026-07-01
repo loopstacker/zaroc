@@ -1,0 +1,50 @@
+main {
+    padding: 2rem 1.25rem;
+}
+
+#implementation-report {
+    width: min(100%, 70rem);
+    margin: 0 auto;
+}
+
+#implementation-report h2 {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 0 1rem 0;
+}
+
+#implementation-report h3 {
+    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+    margin-bottom: 0.75rem;
+}
+
+#implementation-report > p {
+    text-align: center;
+    margin: 0 auto 1.5rem auto;
+    width: min(100%, 55rem);
+}
+
+#implementation-report section {
+    border: 1px solid;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#domain-model img {
+    display: block;
+    width: min(100%, 62rem);
+    height: auto;
+    margin: 0.75rem auto 0 auto;
+    border: var(--color-gold-dim) 5px solid;
+    border-radius: 10px;
+}
+
+#resources-and-expertise dt {
+    font-weight: 700;
+    margin-top: 0.75rem;
+}
+
+#resources-and-expertise dd {
+    margin: 0.25rem 0 0 0;
+}

@@ -1,0 +1,63 @@
+#game-rules h2 {
+    color: #8b5e1a;
+    border-bottom-color: #c9a96e;
+}
+
+#game-rules h3,
+#game-rules h4 {
+    color: #6b4c2a;
+}
+
+#setup p,
+#objective p,
+#restrictions p,
+#winning p {
+    color: #4a3020;
+}
+
+#restrictions ul {
+    color: #4a3020;
+}
+
+#how-to-play dl dt {
+    background-color: #e8dcc8;
+    color: #8b5e1a;
+}
+
+#how-to-play dl dd {
+    color: #4a3020;
+}
+
+#installation {
+    border-top-color: #c9a96e;
+}
+
+#installation h2 {
+    color: #8b5e1a;
+}
+
+#installation ol li {
+    color: #4a3020;
+    border-left-color: #c9a96e;
+}
+
+#installation ol li:hover {
+    border-left-color: #8b5e1a;
+}
+
+#technical {
+    border-top-color: #c9a96e;
+}
+
+#technical h2 {
+    color: #8b5e1a;
+}
+
+#technical dl dt {
+    color: #8b5e1a;
+    border-left-color: #c9a96e;
+}
+
+#technical dl dd {
+    color: #4a3020;
+}

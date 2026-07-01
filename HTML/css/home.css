@@ -1,0 +1,107 @@
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--color-espresso);
+    padding: 3em 4em;
+}
+
+#hero h2 {
+    text-align: center;
+    font-size: 5em;
+    color: var(--color-gold);
+}
+
+#hero #sub-desc {
+    margin-top: -2em;
+    text-align: center;
+    font-size: 2em;
+    color: var(--color-caramel);
+}
+
+#hero p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: var(--color-caramel);
+}
+
+#hero a {
+    border: 1px solid;
+    padding: 0.6em 1.5em;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 2em;
+    transition: background-color 0.4s ease-out;
+    color: var(--color-gold);
+    border-color: var(--color-gold);
+}
+
+#hero a:hover {
+    background-color: var(--color-latte);
+}
+
+#features {
+    padding: 3em 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--color-gold);
+}
+
+#features .title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: var(--color-gold);
+}
+
+#features h3 {
+    text-align: center;
+    color: var(--color-gold);
+}
+
+#features p {
+    text-align: center;
+    color: var(--color-caramel);
+}
+
+#features .f1,
+#features .f2,
+#features .f3 {
+    border: 1px solid;
+    flex-grow: 1;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-color: var(--color-espresso);
+}
+
+#about {
+    padding: 3em 4em;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--color-mocha);
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 0.75em;
+    color: var(--color-gold);
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 3000px;
+    margin: 0 auto 1em;
+    white-space: pre-line;
+    color: var(--color-caramel);
+}

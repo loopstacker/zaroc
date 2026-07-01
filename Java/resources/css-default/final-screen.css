@@ -1,0 +1,99 @@
+.root{
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.game-over-label {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 30px;
+    -fx-text-fill: color-third-dark-level-1;
+}
+
+.game-result-label {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 58px;
+    -fx-font-weight: bold;
+    -fx-text-fill: color-third-light-level-3;
+}
+
+.congrats-label {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 20px;
+    -fx-text-fill:  color-third-dark-level-2;
+}
+
+.thanks-label {
+    -fx-font-family: 'Georgia';
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+    -fx-text-fill: color-third-dark-level-3;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-max-width: 300px;
+}
+
+.divider {
+    -fx-background-color: color-first-light-level-2;
+    -fx-border-color: color-first-light-level-2;
+}
+
+.stat-box {
+    -fx-background-color: color-first-medium-level-2;
+    -fx-border-color: color-first-light-level-3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.stat-val {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.stat-val-default {
+    -fx-text-fill: color-second-medium-level-1;
+}
+
+.stat-val-time {
+    -fx-text-fill: color-second-medium-level-1;
+}
+
+.stat-label {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 9px;
+    -fx-text-fill: color-third-dark-level-3;
+}
+
+.btn-secondary {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 12px;
+    -fx-text-fill: color-third-medium-level-2;
+    -fx-background-color: transparent;
+    -fx-border-color: color-first-light-level-1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 12 28 12 28;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: color-first-medium-level-1;
+    -fx-text-fill: color-third-light-level-3;
+}
+
+.btn-primary {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 12px;
+    -fx-text-fill: color-second-light-level-2;
+    -fx-background-color: color-first-light-level-4;
+    -fx-border-color: color-second-medium-level-3;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 12 28 12 28;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: color-second-dark-level-4;
+    -fx-text-fill: color-second-light-level-1;
+}

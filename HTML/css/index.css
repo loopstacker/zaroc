@@ -1,0 +1,40 @@
+:root {
+    --color-gold:          #d4a853;  /* primary accent — headings, links, borders */
+    --color-gold-dim:      #b8883a;  /* gold hover (accessibility toggle) */
+    --color-espresso:      #3a2510;  /* dark border */
+    --color-latte:         #4a2e10;  /* hover background */
+    --color-mocha:         #2d1f10;  /* footer border */
+    --color-caramel:       #c0a070;  /* secondary text */
+    --color-tan:           #a08060;  /* nav/footer links */
+    --color-leather-brown: #8b5e1a;
+    --color-beige:         #c9a96e;
+    --color-soft-brown:    #4a3020;
+    --color-light-brown:   #6b4c2a;
+    --color-dark-brown:    #221710;
+    --color-cacao:         #3b291d;
+    --color-pastel-tan:    #e3b27b;
+    --color-dark-cacao:    #1b1411;
+    --color-coffee-bean:   #2c211f;
+    --color-black-orange:  #221a17;
+    --color-sand:          #d6bc97;
+    --color-dark-khaki:    #634818;
+    --color-soft-tan:      #f0d080;
+    --color-desert:        #e8d5b0;
+    --color-gold-tinted:   #d4a753;
+    --color-tobacco-brown: #6b5535;
+
+    --color-bg-dark:       #1a1210;  /* page background */
+    --color-header-dark:   #120d09;  /* header background */
+    --color-footer-dark:   #0d0907;  /* footer background */
+    --color-surface-dark:  #1e1410;  /* accessibility menu background */
+    --color-dropdown-dark: #120d09;  /* select option background */
+    --color-text-dark:     white;
+    --color-grey:          #303030;
+
+    --color-bg-light:      #f5f0e8;  /* page background */
+    --color-header-light:  #e8dcc8;  /* header background */
+    --color-footer-light:  #ddd0b8;  /* footer background */
+    --color-text-light:    #2a1a0a;
+    --color-bone-white:    #ede3d0;
+    --color-pale-yellow:   #ffffaa;
+}

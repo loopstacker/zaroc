@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZAROC</title>
+    <link rel="stylesheet" href="../css/general-style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link id="theme-general" rel="stylesheet" href="../css/dark-mode/general-style-dark.css">
+    <link rel="stylesheet" href="../css/guidelines.css">
+    <link id="theme-guidelines" rel="stylesheet" href="../css/dark-mode/guidelines-dark.css">
+    <link id="theme-guidelines-light" rel="preload" as="style" href="../css/light-mode/guidelines-light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <script defer src="../javascript/vocabulary-data.js"></script>
+    <script defer src="../javascript/vocabulary-handler.js"></script>
+    <script src="../javascript/styling-script.js" defer></script>
+    <script src="../javascript/accessibility.js" defer></script>
+    <link id="dyslexia-font" rel="preload" as="style"
+          href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">ZAROC</a></h1>
+    <nav id="menu">
+        <h2 class="hidden-element">Menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <label class="hidden-element" for="lang-sel-box">Language</label>
+    <select name="language" id="lang-sel-box">
+        <option value="EN">EN</option>
+        <option value="NL">NL</option>
+        <option value="FR">FR</option>
+    </select>
+    <button id="themeBtn">Toggle theme</button>
+</header>
+
+<main class="gmain">
+
+    <section id="guidelines">
+        <h2 class="hidden-element">Guidelines</h2>
+
+        <section id="game-rules">
+            <h3 data-guidelines="guidelines-page-game-rules-header">Game Rules</h3>
+
+            <section id="setup">
+                <h4 data-guidelines="guidelines-page-setup-header">The beginning of the game</h4>
+                <p data-guidelines="guidelines-page-setup-desc">The board has three rows of pegs: 5 short, 4 medium and
+                    4 long. Press them into their rows from front
+                    to back. Thread all 16 pieces onto the 4 long pegs, alternating dark and light, 4 pieces per
+                    peg.</p>
+            </section>
+
+            <section id="objective">
+                <h4 data-guidelines="guidelines-page-objective-header">Objective</h4>
+                <p data-guidelines="guidelines-page-objective-desc">Be the first player to get at least 3 pieces of your
+                    color into the 5 indentations at the front of the
+                    board.</p>
+            </section>
+
+            <section id="how-to-play">
+                <h4 data-guidelines="guidelines-page-how-to-play-header">How to play</h4>
+                <dl>
+                    <dt data-guidelines="guidelines-page-how-dt-1">Piece colors do not matter!</dt>
+                    <dd data-guidelines="guidelines-page-how-dd-1">Each turn consists of exactly two moves. You can move
+                        pieces of either color on your turn.
+                    </dd>
+
+                    <dt data-guidelines="guidelines-page-how-dt-2">Sideways move</dt>
+                    <dd data-guidelines="guidelines-page-how-dd-2">Move the top piece to an adjacent peg of the same
+                        height, as long as there is space. You cannot immediately undo the move you just made.
+                    </dd>
+
+                    <dt data-guidelines="guidelines-page-how-dt-3">How to move forward?</dt>
+                    <dd data-guidelines="guidelines-page-how-dd-3">Move the top piece forward to a lower peg or
+                        indentation, following the arrows on the board. This is only allowed if the piece is at the very
+                        top of its peg with no room above it.
+                    </dd>
+
+                    <dt data-guidelines="guidelines-page-how-dt-4">Back in time!</dt>
+                    <dd data-guidelines="guidelines-page-how-dd-4">You can undo your move! Be aware, you have only 3
+                        undos per game. Not using undo's increases points you get or lose
+                    </dd>
+                </dl>
+            </section>
+
+            <section id="restrictions">
+                <h4 data-guidelines="guidelines-page-restrictions-header">Restrictions</h4>
+                <ul>
+                    <li data-guidelines="guidelines-page-restrictions-li-1">Once a piece reaches the front indentations
+                        it cannot move again.
+                    </li>
+                    <li data-guidelines="guidelines-page-restrictions-li-2">Backward moves are not allowed.</li>
+                    <li data-guidelines="guidelines-page-restrictions-li-3">The last piece moved cannot be moved back to
+                        where it came from, even by the other player.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="winning">
+                <h4 data-guidelines="guidelines-page-winning-header">Winning</h4>
+                <p data-guidelines="guidelines-page-winning-desc">The first player to have 3 pieces of their color in
+                    the front indentations wins the game.</p>
+            </section>
+        </section>
+
+        <section id="installation">
+            <h3 data-guidelines="guidelines-page-installation-header">Installation Instructions</h3>
+            <ol>
+                <li data-guidelines="guidelines-page-installation-li-1">Open your browser (You are here)</li>
+                <li data-guidelines="guidelines-page-installation-li-2">Navigate to the main page (After you read all
+                    instructions)
+                </li>
+                <li data-guidelines="guidelines-page-installation-li-3">Download game and open it</li>
+                <li data-guidelines="guidelines-page-installation-li-4">Enter as a guest or register account to gain
+                    more experience
+                </li>
+                <li data-guidelines="guidelines-page-installation-li-5">Have fun!</li>
+            </ol>
+        </section>
+
+        <section id="technical">
+            <h3 data-guidelines="guidelines-page-technical-header">Technical Requirements</h3>
+            <dl>
+                <dt data-guidelines="guidelines-page-technical-dt-1">Computer</dt>
+                <dd data-guidelines="guidelines-page-technical-dd-1">The game is only available for PC-users</dd>
+                <dt data-guidelines="guidelines-page-technical-dt-2">JVM</dt>
+                <dd data-guidelines="guidelines-page-technical-dd-2">You must have Java Virtual Machine installed on
+                    your PC
+                </dd>
+                <dt data-guidelines="guidelines-page-technical-dt-3">Internet connection</dt>
+                <dd data-guidelines="guidelines-page-technical-dd-3">Non-essential requirement, but needed if you want
+                    to be part of leaderboard and save your progress as well as your settings
+                </dd>
+            </dl>
+        </section>
+    </section>
+</main>
+
+<footer class="gfooter">
+    <p>&copy; 2026 Zaroc Team. All rights reserved.</p>
+    <nav>
+        <h2 class="hidden-element">Footer menu</h2>
+        <ul>
+            <li><a data-menu="menu-item-home" href="../index.html">Home</a></li>
+            <li><a data-menu="menu-item-team" href="../html/team.html">Team</a></li>
+            <li><a data-menu="menu-item-gallery" href="../html/gallery.html">Gallery</a></li>
+            <li><a data-menu="menu-item-guidelines" href="../html/guidelines.html">Guidelines</a></li>
+            <li><a data-menu="menu-item-implementation" href="../html/implementation.html">Implementation</a></li>
+            <li><a data-menu="menu-item-ai" href="../html/ai-logic.html">AI</a></li>
+            <li><a data-menu="menu-item-stats" href="../html/stats.html">Stats</a></li>
+            <li><a data-menu="menu-item-feedback" href="../html/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+</footer>
+<aside id="accessibility-widget">
+    <h2 class="hidden-element">Accessibility options</h2>
+    <button id="accessibility-toggle">
+        !!
+    </button>
+
+    <section id="accessibility-menu" class="display-none">
+        <h3>Accessibility</h3>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Font Size</h4>
+            <p>Font Size</p>
+            <ul class="acc-controls">
+                <li>
+                    <button id="font-decrease">A-</button>
+                </li>
+                <li>
+                    <button id="font-reset">A</button>
+                </li>
+                <li>
+                    <button id="font-increase">A+</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Colorblind Mode</h4>
+            <p>Colorblind Mode</p>
+            <label class="hidden-element" for="colorblind-select">Colorblind mode</label>
+            <select id="colorblind-select">
+                <option value="none">None</option>
+                <option value="deuteranopia">Deuteranopia</option>
+                <option value="protanopia">Protanopia</option>
+                <option value="tritanopia">Tritanopia</option>
+                <option value="grayscale">Grayscale</option>
+            </select>
+        </section>
+
+        <section class="acc-option">
+            <h4 class="hidden-element">Dyslexia Font</h4>
+            <p>Dyslexia Font</p>
+            <button id="dyslexia-btn">Off</button>
+        </section>
+    </section>
+</aside>
+</body>
+</html>

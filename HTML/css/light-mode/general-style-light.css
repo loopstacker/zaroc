@@ -1,0 +1,10 @@
+body {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
+}
+header {
+    background-color: var(--color-header-light);
+}
+footer {
+    background-color: var(--color-footer-light);
+}

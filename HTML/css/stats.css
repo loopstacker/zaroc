@@ -1,0 +1,119 @@
+.explore-imgs {
+    max-height: 300px;
+    width: auto;
+    border: var(--color-gold-dim) 5px solid;
+    border-radius: 10px;
+}
+
+#statistics-and-correlations-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+#statistics-and-correlations-imgs figure {
+    text-align: center;
+}
+
+#statistics-and-correlations-summary, #analysis-header, #analysis-footer{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#statistics-and-correlations-summary dt {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#analysis-header h3,
+#analysis-footer h3{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#analysis-header p a,
+#analysis-footer p a{
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#stats-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats-controls > *{
+    margin: 5px;
+}
+
+#moves {
+    background-color: transparent;
+    width: 100%;
+    margin: 12px auto 40px auto;
+    text-align: center;
+    border: var(--color-grey) solid 1px;
+}
+
+article {
+    margin: 40px auto 0 auto;
+    width: 80%;
+}
+
+#refresh-button {
+    width: 120px;
+    height: 28px;
+    border-radius: 8px;
+}
+
+#moves {
+    table-layout: fixed;
+    user-select: none;
+}
+
+#moves > thead {
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+#leaderboard-loading-note {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/*We are creating frames, it like variables of animation*/
+@keyframes fade-in-out-animation { /*we specified name that we will apply on elements  further*/
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#moves-tbody > tr {
+    animation: fade-in-out-animation 1s ease-in;
+}
+
+
+#filter-value-label {
+    margin-left: 40px;
+}
+
+#filter-value {
+    border-radius: 8px;
+    height: 28px;
+    width: 200px;
+    margin: 0 8px;
+}
+
+#find-button {
+    height: 28px;
+    border-radius: 4px;
+}

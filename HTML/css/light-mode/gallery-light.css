@@ -1,0 +1,28 @@
+#gallery-section h2 {
+    color: var(--color-leather-brown);
+}
+
+#gallery figure {
+    border-color: var(--color-beige);
+}
+
+#gallery figure:hover {
+    border-color: royalblue;
+}
+
+#gallery figure figcaption {
+    color: var(--color-light-brown);
+    background-color: var(--color-header-light);
+}
+
+#image-viewer-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#overlay-close-button {
+    color: var(--color-soft-brown);
+}
+
+#overlay-close-button:hover {
+    color: var(--color-leather-brown);
+}

@@ -1,0 +1,183 @@
+.root{
+    -fx-background-color: color-first-dark-level-4;
+}
+
+.label-mode-selection {
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-family: 'Georgia';
+}
+
+.separator .line {
+    -fx-border-color: color-first-light-level-4;
+    -fx-border-width: 1.5;
+}
+
+.button {
+    -fx-font-family: 'Georgia';
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px;
+    -fx-border-color: color-second-light-level-3;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1;
+    -fx-text-fill: color-second-light-level-3;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: color-first-light-level-4;
+}
+
+.btn-ghost {
+    -fx-background-color: transparent;
+    -fx-border-color: color-third-medium-level-3;
+    -fx-text-fill: color-third-medium-level-3;
+}
+
+.btn-ghost:hover {
+    -fx-background-color: color-first-light-level-4;
+    -fx-text-fill: color-third-light-level-3;
+}
+
+.games-played-card, .games-lost-card, .games-won-card {
+    -fx-border-color: color-first-light-level-4;
+    -fx-background-color: color-first-dark-level-1;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 15 20 15 20;
+    -fx-min-width: 90px;
+    -fx-alignment: center;
+}
+
+.games-played-card .label,
+.games-won-card .label,
+.games-lost-card .label {
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+}
+
+.rules-box {
+    -fx-alignment: center;
+    -fx-background-color: color-first-dark-level-3 /*it is main bg color*/;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+    -fx-min-width: 300px;
+}
+
+.rules-label-column .label {
+    -fx-text-fill: color-third-medium-level-3;
+    -fx-font-size: 14px;
+}
+
+.rules-value-column .label {
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.difficulty-hard {
+    -fx-text-fill: color-second-light-level-3;
+}
+
+.stat-cards-box {
+    -fx-min-height: 80px;
+    -fx-alignment: center;
+}
+
+.competitive-info {
+    -fx-background-color: transparent;
+    -fx-border-color: color-first-light-level-4;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: color-third-medium-level-3;
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 13px;
+    -fx-padding: 8 10 8 10;
+}
+
+.competitive-info .content {
+    -fx-background-color: transparent;
+}
+
+.competitive-info .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.competitive-info .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.competitive-info .scroll-bar {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    -fx-opacity: 0;
+}
+
+.casual-section-label {
+    -fx-font-family: 'Georgia';
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-size: 14px;
+}
+
+.toggle-button {
+    -fx-font-family: 'Georgia';
+    -fx-background-color: transparent;
+    -fx-border-color: color-first-light-level-4;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: color-third-medium-level-3;
+    -fx-font-size: 13px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: color-first-light-level-4;
+    -fx-text-fill: color-third-light-level-3;
+    -fx-border-color: color-second-light-level-3;
+}
+
+.casual-controls-box {
+    -fx-padding: 20;
+    -fx-min-width: 300px;
+}
+
+.spinner {
+    -fx-background-color: transparent;
+    -fx-border-color: color-first-light-level-4;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.spinner .text-field {
+    -fx-background-color: color-first-dark-level-2;
+    -fx-text-fill: color-third-light-level-3;
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+    -fx-background-radius: 8;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: color-first-dark-level-2;
+    -fx-border-color: color-first-light-level-4;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    -fx-background-color: color-first-light-level-4;
+}
+
+.spinner .increment-arrow-button .increment-arrow,
+.spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color: color-second-light-level-3;
+    -fx-shape: "M 0 0 h 7 l -3.5 4 z";
+}
+
+.spinner .increment-arrow-button .increment-arrow {
+    -fx-shape: "M 0 4 h 7 l -3.5 -4 z";
+}

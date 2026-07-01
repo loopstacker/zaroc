@@ -1,0 +1,16 @@
+#implementation-report h2 , #implementation-report h3 {
+    color: var(--color-leather-brown);
+}
+
+/*#implementation-report h3 {*/
+/*    color: #8b5e1a;*/
+/*}*/
+
+#implementation-report section {
+    background-color: var(--color-header-light);
+    border-color: var(--color-beige);
+}
+
+#resources-and-expertise dt {
+    color: #6b4c2a;
+}
